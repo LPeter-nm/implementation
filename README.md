@@ -12,7 +12,7 @@
 ```mermaid
 erDiagram
     USER {
-        String id PK "id @default(autoincrement())"
+        Int id PK "id @default(autoincrement())"
         String username "username"
         String email "email @unique"
        
